@@ -1,10 +1,9 @@
-# import the modules 
 import praw
 print(praw.__version__)
 
-Muck_list = ["Muck", "muck", "Muck.", "muck."]
+Muck_list = ["Muck", "muck", "Muck.", "muck.", "MUCK", "MUCK."]
 
-# initialize with appropriate values 
+# initialize with appropriate values
 client_id = "CLIENT_ID"
 client_secret = "CLIENT_SECRET"
 username = "hananelroe"
