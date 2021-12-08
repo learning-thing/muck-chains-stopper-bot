@@ -1,4 +1,4 @@
-# This code was written by https://www.reddit.com/user/Hananelroe
+# import the modules 
 import praw
 print(praw.__version__)
 
