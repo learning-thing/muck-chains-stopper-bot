@@ -23,5 +23,5 @@ reddit = praw.Reddit(client_id=client_id,
 subreddit = reddit.subreddit("DaniDev")
 for comment in subreddit.stream.comments(skip_existing=True):
     print(comment.body)
-    if comment.body in Muck_list:
+    if str(comment.body).lower().strip() in Muck_list:
         comment.reply("###SHUT\n ^(i am a simple bot that just want to stop muck chains, [here is my source code](https://github.com/hananelroe/muck-chains-stopper-bot))")
